@@ -1,0 +1,59 @@
+.sidebar {
+  background-color: #101010;
+  padding: 20px;
+  position: fixed;
+  top: 0; /* Adjust this value if you want it to start lower */
+  left: 0;
+  width: 20%; /* Adjust the width as per your design */
+  height: 100%; /* Make the sidebar full height of the viewport */
+  overflow-y: auto; /* Add scroll if the content overflows */
+  color: #c69749;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .sidebar > * {
+  border: 1px solid khaki;
+} */
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.user {
+  height: 40px;
+  border-radius: 20px;
+  border: 4px solid #c69749;
+}
+
+.sectionHeading {
+  font-family: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.section li:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
